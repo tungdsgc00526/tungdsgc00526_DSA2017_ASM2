@@ -14,17 +14,9 @@ public class Main {
     public static void main(String[] agrs){
         
         String[] arrString = new String[]{
-            "2280",
-            "1015",
-            "3895",
-            "9001",
-            "9002",
-            "5267",
-            "4016",
-            "1120",
-            "8907"
+            "158","124","238","707","608","250","888"
         };
-        sort(arrString,4);
+        sort(arrString,3);
         
         for (int i = 0; i < arrString.length; i++) {
             System.out.println(arrString[i]);
